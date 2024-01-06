@@ -748,6 +748,7 @@ img {
 }
 .input-field {
   position: relative;
+  margin-bottom: 8px;
 }
 
 .form-field {
