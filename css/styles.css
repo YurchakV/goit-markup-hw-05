@@ -806,6 +806,7 @@ img {
 }
 
 .agreement {
+  margin-bottom: 24px;
 }
 .form-agreement {
   display: block;
@@ -834,4 +835,10 @@ img {
 .form-agreement-icon {
 }
 .form-agreement-link {
+  color: #4d5ae5;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  text-decoration-line: underline;
 }
