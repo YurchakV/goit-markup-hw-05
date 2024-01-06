@@ -636,7 +636,7 @@ img {
   justify-content: center;
   padding: 8px 24px;
 
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
   color: #fff;
