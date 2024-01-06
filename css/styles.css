@@ -633,12 +633,15 @@ img {
 .subscribe-btn {
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 8px 24px;
-  gap: 16px;
+
+  width: 165px;
+  height: 40px;
   background-color: #4d5ae5;
   color: #fff;
   border-radius: 4px;
-  border-color: transparent;
+  border: none;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -646,6 +649,7 @@ img {
 }
 .subscribe-icon {
   fill: #ffffff;
+  margin-left: 16px;
 }
 
 /* Modal window */
