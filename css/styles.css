@@ -746,6 +746,10 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
+.input-field {
+  position: relative;
+}
+
 .form-field {
   position: relative;
   margin-bottom: 8px;
