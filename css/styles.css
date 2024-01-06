@@ -507,7 +507,6 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 
 .footer-logo {
@@ -592,4 +591,67 @@ img {
 
 .social-icon-footer {
   fill: currentColor;
+}
+
+/* Modal window */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(46, 47, 66, 0.4);
+  transition: opacity 300ms ease-in, visibility 300ms ease-in;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.backdrop.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: initial;
+}
+
+.modal {
+  position: relative;
+  width: 408px;
+  min-height: 584px;
+  border-radius: 4px;
+  background-color: #fcfcfc;
+  padding: 24px;
+  padding-top: 72px;
+}
+
+.modal-button {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  color: #2e2f42;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7e9fc;
+  border-radius: 50%;
+  border: 0;
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0.1);
+}
+
+.modal-btn-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-caption {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
