@@ -713,6 +713,7 @@ img {
 .modal-button:focus {
   background-color: #404bbf;
   fill: #ffffff;
+  border: none;
 }
 
 .modal-btn-icon {
@@ -747,6 +748,7 @@ img {
 }
 .form-field {
   position: relative;
+  margin-bottom: 8px;
 }
 .form-input {
   width: 100%;
